@@ -4,7 +4,8 @@
   "description": "sunucu tabanlı programlama dersi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   "homepage": "https://github.com/edanur1258/sunucu2026#readme",
   "keywords": [],
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "nodeman": "^1.1.2",
+    "nodemon": "^3.1.10"
   }
 }
